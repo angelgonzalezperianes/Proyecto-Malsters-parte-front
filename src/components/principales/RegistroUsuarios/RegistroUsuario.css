@@ -1,0 +1,77 @@
+.BloqueUsuarioFormulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    background-color: #2e2516;
+    padding: 1.5em 10vw 106px;
+}
+.EnvaseLogo{
+    margin-top: 3em; 
+    height: 7vh;
+}
+.logoFormularioUsuario{
+    width: 50%;
+}
+.tituloFormularioUsuario{
+    margin-top: 2em;
+    color:#E7e0c9;
+}
+.textoFormularioUsuario{
+    margin-top: 2em;
+    color:#E7e0c9;
+    width: 80vw;
+}
+/* Campo Formulario */
+.FormularioUsuario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    text-align: left;
+}
+/* Campos Verticales */
+.VerticalesUsuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+.camposUsuario{
+    color:#E7e0c9;
+    width: 70vw;
+    height: 4vh;
+    border: solid #E7e0c9 1px;
+    margin-left: 1em;
+    background-color: #2e2516;
+    border-radius: 5px;
+    border: solid #E7e0c9 1px;
+}
+.campoImagenUsuario{
+    color:#E7e0c9;
+    width: 70vw;
+    border: solid #E7e0c9 1px;
+    margin-left: 1em;
+    background-color: #2e2516;
+    border-radius: 5px;
+    border: solid #E7e0c9 1px;
+}
+.titulosUsuario{
+    color:#E7e0c9;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+.cajaBotonUsuario{
+    justify-content: center;
+    display: flex;
+
+}
+.botonFormularioUsuario{
+    width: 60vw;
+    height: 2em;
+    color: black;
+    border-radius: 100px;
+    border-style: none;
+    background-color: #F2B801;
+    color:#2e2516;
+}

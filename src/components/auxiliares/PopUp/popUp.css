@@ -1,0 +1,68 @@
+/*magia del popup*/
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    overflow: scroll;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+#popupBody{
+    width: 85%;
+    max-width: 400px;
+    height: 100%;
+    position: relative;
+    margin: 20% auto;
+}
+#cerrar{
+    position: absolute;
+    margin-left:10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    transition: all 200ms;
+}
+/*fin de la magia*/
+.popupContent{
+    background:#F9EABF;
+    position: relative;
+    float:left;
+    margin-top:-40px;
+    padding-top:40px;
+    margin-bottom:40px;
+    padding-bottom:50px ;
+    border-radius: 15px;
+}
+.titularNube{
+    background-image:url('http://localhost:3000/Styles/Images/burbuja.svg');
+    background-size:250px;
+    background-repeat:repeat-x;
+    min-height: 120px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.tituloPop{
+    text-align:center;
+    vertical-align: text-bottom;
+    line-height: 115px;
+}
+.cerracion{
+    margin-top:18px;
+    position:fixed;
+    float:left;
+}
+.popTxt{
+    text-align: justify;
+    margin:25px;
+}

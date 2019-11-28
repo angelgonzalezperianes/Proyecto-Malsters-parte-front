@@ -1,0 +1,140 @@
+/* Aqui el CSS Del componente HOME */
+/* .home {
+  background-color: #2e2516;
+  height: 100vh;
+  padding-bottom: 13em;
+  
+}
+.Ascensor{
+  padding-top: 1em;
+ 
+}
+.box,
+.box2 {
+  margin: 2em 0 2em 2em;
+} */
+.LogoHome{
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+ 
+}
+.logoH{
+  padding:1em;
+  width: 12em;
+}
+@media screen and (max-width: 360px) , screen and (max-height:640px) {
+  .home {
+    background-color: #2e2516;
+    height: 100vh;
+  }
+  .Ascensor{
+    /* padding-top: 1em; */
+    padding-bottom: 8em;
+    background-color: #2e2516;
+  }
+  .box,
+  .box2 {
+    margin: 2em 0 2em 2em;
+  }
+}
+@media screen and (max-width: 411px) , screen and (max-height:731px) {
+  .home {
+    background-color: #2e2516;
+    height: 100vh;
+    padding-bottom: 6em;
+  }
+  .Ascensor{
+    /* padding-top: 1em; */
+  }
+  .box,
+  .box2 {
+    margin: 2em 0 2em 2em;
+  }
+}
+@media screen and (max-width: 411px) , screen and (max-height:823px) {
+  .home {
+    background-color: #2e2516;
+    height: 100vh;
+   
+  }
+  .Ascensor{
+    /* padding-top: 3em; */
+    padding-bottom: 6em;
+  }
+  .box,
+  .box2 {
+    margin: 2em 0 2em 2em;
+  }
+}
+@media screen and (max-width: 320px) , screen and (max-height:568px) {
+  .home {
+    background-color: #2e2516;
+    height: 100vh;
+    padding-bottom: 13em;
+  }
+  .Ascensor{
+    /* padding-top: 1em; */
+    padding-bottom: 8em;
+    background-color: #2e2516;
+  }
+  .box,
+  .box2 {
+    margin: 2em 0 2em 2em;
+  }
+}
+@media screen and (max-width: 375px) , screen and (max-height:667px) {
+  .home {
+    background-color: #2e2516;
+    height: 100vh;
+    padding-bottom: 8em;
+  }
+  .Ascensor{
+    /* padding-top: 1em; */
+    padding-bottom: 8em;
+    background-color: #2e2516;
+  }
+  .box,
+  .box2 {
+    margin: 2em 0 2em 2em;
+  }
+}
+@media screen and (max-width: 414px) , screen and (max-height:736px) {
+  .home {
+    background-color: #2e2516;
+    height: 100vh;
+    padding-bottom: 4em;
+  }
+  
+  .box,
+  .box2 {
+    margin: 2em 0 2em 2em;
+  }
+}
+@media screen and (max-width: 375px) , screen and (max-height:812px) {
+  .home {
+    background-color: #2e2516;
+    height: 100vh;
+   
+  }
+  /* .Ascensor{
+    padding-top: 1em;
+  } */
+  .box,
+  .box2 {
+    margin: 2em 0 2em 2em;
+  }
+}
+@media screen and (max-width: 1024px) , screen and (max-height:1366px) {
+  .home {
+    background-color: #2e2516;
+    height: 100vh;
+  }
+  /* .Ascensor{
+    padding-top: 1em;
+  } */
+  .box,
+  .box2 {
+    margin: 2em 0 2em 2em;
+  }
+}

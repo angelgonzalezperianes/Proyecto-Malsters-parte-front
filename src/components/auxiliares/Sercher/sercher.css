@@ -1,0 +1,39 @@
+.bloqueBuscador{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+    margin:1em;
+}
+.buscador[type=text] {
+    width: 28vw;
+    height: 1.7vh;
+    /* box-sizing: border-box; */
+    border: 1px solid white;
+    background-color: #2e2516;
+    border-radius: 6px;
+    /* backgrou,nd-image: url("http://localhost:3000/Styles/Icons/event.svg"); */ /*hay que poner el icono de busqueda y que sea onlick*/
+    padding: 12px 20px 12px 40px;
+    color:white;
+}
+.bus{
+    width: 40px;
+    height: 40px;
+    background-color: #2e2516;
+    border: none;
+}
+.lupa{
+    width: 30px;
+}
+.triBloque{
+    color:white;
+} 
+
+.for{
+    display: flex;
+}
+/* .boton{
+    position: absolute;
+    margin-left: 7em;
+    margin-top: 0.4em;
+    background-image: url("http://localhost:3000/Styles/Icons/search.svg");
+} */

@@ -1,0 +1,172 @@
+/* PARTE DE ARRIBA, DE LA ESPUMA */
+.VC{
+    background: #362e21;
+    height: 100vh;
+    padding-top:2em ;
+    padding-bottom: 7.5em;
+}
+.Log{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.imageLog{
+width: 160px;
+}
+.beerBox{
+    /* background: #362e21; */
+    /* width: 100%; */
+    /* min-width: 346px; */
+    /* height: 100vh; */
+   
+}
+.espumita{
+    width: 90%;
+    margin: 0 auto;
+    height:100%;
+    text-align: center;
+}
+.EspumaCerveza{
+    display: flex;
+    justify-content: space-between; 
+    background-color: #807A5E;
+    height: 100px;
+}
+.image{
+    /* width: 100%; */
+}
+.iconLeft{
+    height:30px;
+    width:30px;
+    margin-left: 2em;
+}
+.nombreCerveza{
+    margin-top:3em;
+    color: white;
+} 
+.iconRight{
+    height:30px;
+    width:30px;
+    margin-top:3em;
+    margin-right: 1em;
+}  
+
+
+/* PARTE DE ABAJO, IMAGENES Y TEXTO */
+
+.content{
+    width: 90%;
+    margin: 0 auto;
+    height: 20em;
+    background-color:#5b5040;
+}
+.beerCaja{
+    display: flex;
+    flex-direction: row;
+}
+.beerImg{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    
+}
+.pentagramaDeLaMuerte{
+    width: 50%;
+    justify-content:  baseline;
+    align-content: center;
+}
+.imagenBeer{
+    float: right;
+    margin-right: 20%;
+    margin-top: -50px;
+}
+.statsBox{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    float: left;
+    display: block;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0em;
+    text-align: center;
+    display: flex;
+}
+
+.beerStats{
+    height: 100%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 35px;
+    margin-left: 0.5%; 
+    margin-right: 4%;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+    position: relative;
+}
+.beerStats::before,
+.beerStats::after{
+    content: "";
+    background: #fff;
+    position: absolute;
+    padding:0em 1em 0em 1em;
+    height: 1px;
+    width: 75%;
+    margin:0 auto;
+}
+.beerStats::after {
+    bottom: 0;
+}
+.fabricado{
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+    color:#90a792;
+}
+
+a:link, a:visited, .enlaceFabric{
+    color:#eb970b;
+    text-decoration: underline;
+}
+
+.comprar{
+    width: 100%;
+    background:#362e21;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:16px 0px;
+    color:#fff;
+}
+.caracteristicas{
+    color:#90a792;
+    margin-right: 1em;
+}
+.colorStat{
+    color:#fff;
+    position: absolute;
+}
+.boton{
+    border-radius: 15px;
+    border-style: groove;
+    width: 10em;
+    height: 2em;
+    background-color:  #362e21 ;
+    color:white;
+}
+
+.Compra{
+    background-color: #4F481E ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comprar p{
+    padding-bottom: 1em;
+}

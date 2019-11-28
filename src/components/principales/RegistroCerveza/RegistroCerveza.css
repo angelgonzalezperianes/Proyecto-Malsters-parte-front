@@ -1,0 +1,95 @@
+.BloqueFormulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    background-color: #2e2516;
+    padding:1.5em 10vw 106px ;
+}
+.CajaLogo{
+    margin-top: 3em; 
+    height: 7vh;
+}
+.logo{
+    width: 50%;
+}
+.tituloFormulario{
+    margin-top: 2em;
+    color:#E7e0c9;
+}
+.textoFormulario{
+    margin-top: 2em;
+    color:#E7e0c9;
+    width: 80vw;
+}
+/* Campo Formulario */
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    text-align: left;
+}
+/* Campos Verticales */
+.Verticales{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+.campos{
+    color:#E7e0c9;
+    width: 70vw;
+    height: 4vh;
+    border: solid #E7e0c9 1px;
+    margin-left: 1em;
+    background-color: #2e2516;
+    border-radius: 5px;
+    border: solid #E7e0c9 1px;
+}
+.campoImagen{
+    color:#E7e0c9;
+    width: 70vw;
+    border: solid #E7e0c9 1px;
+    margin-left: 1em;
+    background-color: #2e2516;
+    border-radius: 5px;
+    border: solid #E7e0c9 1px;
+}
+.titulos{
+    color:#E7e0c9;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+/* Campos Horizontales */
+.Horizontales{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 4em;
+}
+.camposHorizontales{
+    color:#E7e0c9;
+    width: 6vw;
+    background-color: #2e2516;
+    margin: 0.2em;
+    border-radius: 5px;
+    border: solid #E7e0c9 1px;
+}
+.titulosHorizontales{
+    color:#E7e0c9;
+    margin: 0.5em;
+}
+.cajaBotonCerveza{
+    justify-content: center;
+    display: flex;
+}
+.botonFormularioCerveza{
+    width: 60vw;
+    height: 2em;
+    color: black;
+    border-radius: 100px;
+    border-style: none;
+    background-color: #F2B801;
+    color:#2e2516;
+}
